@@ -1,5 +1,6 @@
 ## Task Bar Application
 This is a simple Task Bar application created using React and Vite. The application allows users to assign tasks to team members, set task priorities, and edit task details including priority levels.
+
 ![Screenshot (95)](https://github.com/darshanm17/Task-Bar/assets/116059183/1eab1e37-30df-453c-b8d5-1dbdfcfd8a29)
 
 ## Features
@@ -8,6 +9,8 @@ This is a simple Task Bar application created using React and Vite. The applicat
 - **Task Description:** Add detailed descriptions for each task.
 - **Priority Setting:** Set and edit the priority of tasks.
 - **Task Editing:** Edit task details including the name, description, assigned member, and priority.
+
+  
 ![Screenshot (94)](https://github.com/darshanm17/Task-Bar/assets/116059183/1418b4d0-086f-4bee-8b54-61db4ea57c4d)
 
 ## Installation

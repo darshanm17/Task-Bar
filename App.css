@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+body{
+  background: rgb(255,255,255);
+background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(229,219,253,1) 98%);
+}
+  .Preority-Based-cont {
+    height: 601px;
+    width: 383px;
+    border: 2px solid grey;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+.Taskbar{
+  width: 90%;
+  border: 2px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+ 
+  
+  overflow-x: scroll;
+  .Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+  }
+
+  .Create-new-Button{
+    font-family:  "Roboto Condensed", sans-serif;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(72, 72, 212);
+    font-size: 20px;
+  }
+}
+.EmptyMessage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+.taskbar-cont{
+  display: flex;
+  gap: 20px;
+  
+}
+.Preority-Based-cont{
+  background-color: white;
+  margin: 10px 15px;
+  border-radius: 10px;
+}
+.Preority-Heading{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  width: 100%;
+  
+  color: white;
+}
+.Pending{
+  background-color: grey;
+}
+.In-Progress{
+  background-color: orange;
+}
+.Completed{
+  background-color: green;
+}
+.Deployed{
+  background-color: rgb(39, 2, 112);
+}
+.Deferred{
+  background-color: rgb(85, 66, 103);
+}
+.DisableTask{
+  width: 90%;
+  border: 2px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}

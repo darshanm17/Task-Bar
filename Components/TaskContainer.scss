@@ -1,0 +1,42 @@
+.Task-Container {
+  width: 90%;
+  height: 200px;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+  margin: 10px 15px;
+  background-color: rgb(233, 223, 223);
+  font-family: "Roboto Condensed", sans-serif;
+
+  .Task-Title-Priority {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+  }
+
+  .Assign-Edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Task-Description {
+    font-size: 10px;
+  }
+
+  .Edit-btn {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 10px;
+    /* font-size: 35px; */
+    background-color: #7575ce;
+    color: white;
+    /* width: 50px; */
+  }
+}
